@@ -14,6 +14,8 @@
 		01220D5F23E36AA200D8C783 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01220D5D23E36AA200D8C783 /* Main.storyboard */; };
 		01220D6123E36AA600D8C783 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01220D6023E36AA600D8C783 /* Assets.xcassets */; };
 		01220D6423E36AA600D8C783 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01220D6223E36AA600D8C783 /* LaunchScreen.storyboard */; };
+		01220D6C23E36C0300D8C783 /* WhateverModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01220D6B23E36C0300D8C783 /* WhateverModel.swift */; };
+		01220D6E23E36C1300D8C783 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01220D6D23E36C1300D8C783 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		01220D6023E36AA600D8C783 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01220D6323E36AA600D8C783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01220D6523E36AA600D8C783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01220D6B23E36C0300D8C783 /* WhateverModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhateverModel.swift; sourceTree = "<group>"; };
+		01220D6D23E36C1300D8C783 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				01220D6023E36AA600D8C783 /* Assets.xcassets */,
 				01220D6223E36AA600D8C783 /* LaunchScreen.storyboard */,
 				01220D6523E36AA600D8C783 /* Info.plist */,
+				01220D6B23E36C0300D8C783 /* WhateverModel.swift */,
+				01220D6D23E36C1300D8C783 /* DataManager.swift */,
 			);
 			path = "In Class Tables and Details";
 			sourceTree = "<group>";
@@ -142,8 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				01220D5623E36AA200D8C783 /* AppDelegate.swift in Sources */,
+				01220D6E23E36C1300D8C783 /* DataManager.swift in Sources */,
 				01220D5823E36AA200D8C783 /* SceneDelegate.swift in Sources */,
 				01220D5A23E36AA200D8C783 /* MasterViewController.swift in Sources */,
+				01220D6C23E36C0300D8C783 /* WhateverModel.swift in Sources */,
 				01220D5C23E36AA200D8C783 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
