@@ -11,13 +11,18 @@ import UIKit
 class DetailViewController: UIViewController {
 
     @IBOutlet weak var detailDescriptionLabel: UILabel!
-
+    @IBOutlet weak var yearLabel: UILabel!
+    
 
     func configureView() {
         // Update the user interface for the detail item.
         if let detail = detailItem {
             if let label = detailDescriptionLabel {
                 label.text = detail.itemDescription
+            }
+            
+            if let yearLabel = yearLabel {
+                yearLabel.text = "\(detail.year)"
             }
             
             self.title = detail.title
